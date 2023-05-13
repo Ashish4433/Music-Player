@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Spotify- Just plugin anytime anywhere</title>
+    <script src="https://kit.fontawesome.com/36d96a9c19.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkpHzjY88oMQSxC77dzAJ1RsptV-3xfbLvPw-tOzL8BA&usqp=CAU&ec=48665699" alt="Spotify">Spotify</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        
+        <div class="songlist">
+            <h1>Songs of My choice</h1>
+            <div>
+                <div class="songItem">
+                    <img src="m2.jpg" alt="1" srcset="">
+                    <span class="songName">Abcdeuf</span>
+                    <span class="slp"><span>04:50</span><i id="1" class="far songPlay fa-play-circle fa-l"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="m1.jpg" alt="2" srcset="">
+                    <span class="songName">See You Again</span>
+                    <span class="slp"><span>05:10</span><i id="2" class="far songPlay fa-play-circle fa-l"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="m3.jpg" alt="3" srcset="">
+                    <span class="songName">Love is Gone</span>
+                    <span class="slp"><span>04:20</span><i id="3" class="far songPlay fa-play-circle fa-l"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="m4.jpg" alt="4" srcset="">
+                    <span class="songName">Falling</span>
+                    <span class="slp"><span>04:30</span><i id="4" class="far songPlay fa-play-circle fa-l"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="m5.jpg" alt="5" srcset="">
+                    <span class="songName">Dusk till Dawn</span>
+                    <span class="slp"><span>05:20</span><i id="5" class="far songPlay fa-play-circle fa-l"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="songpic"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" id="progressbar" min="0"  value="0" max="100"> <br>
+        <div class="icons">
+            <i class="fa-solid fa-backward-step fa-2xl" id="previous"></i>
+            <i class="fa-sharp fa-solid fa-play fa-2xl" id="play"></i>
+            <i class="fa-solid fa-forward-step fa-2xl" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="https://media.tenor.com/b3pZMIW1I-UAAAAC/audio-beat.gif" width="40px" id="gif"> <p id="songDisplay"> Let Me Down Slowly - Benjamin </p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

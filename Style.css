@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(56, 227, 56);
+    animation: mymove 5s infinite 1s;
+}
+@keyframes mymove {
+    0%   {background-color: red;}
+    10%  {background-color: yellow;}
+    20%  {background-color: blue;}
+    30% {background-color: rgb(83, 218, 83);}
+    40%   {background-color: rgb(0, 255, 242);}
+    50%  {background-color: rgb(255, 174, 0);}
+    60%  {background-color: rgb(255, 0, 179);}
+    70%   {background-color: rgb(255, 140, 0);}
+    80%  {background-color: rgb(255, 0, 119);}
+    90%  {background-color: rgb(174, 0, 255);}
+    100% {background-color: rgb(83, 218, 83);}   
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 50px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.logo{    
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+}
+.logo img{
+height: 44px;
+width: auto;
+padding: 0 8px;
+}
+.container{
+    height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flexbox;
+    margin: 23px auto;
+    width: 55%;
+    border-radius: 8%;
+    padding: 34px;
+    background-image: url("m2.jpg");
+}
+.bottom{
+    position: sticky;
+    height: 12%;
+    background-color: black;
+    color:white;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+}
+.icons{
+    word-spacing: 10px;
+}
+h1{
+    margin-left: 7.5%;
+}
+.songItem{
+    border: 1px solid white;
+    height: 7%;
+    display: flex;
+    width: 52%;
+    margin: 1.5% 0;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 10%;
+    font-weight: bolder;
+}
+.songItem img{
+    width: 7.5%;
+    margin: 0 20px;
+    border-radius: 50%px;
+}
+#progressbar{
+    width: 80vw;
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    display: flex;
+}
+.songInfo img{
+    margin-top: 3vw;
+    opacity: 1s;
+}
+.songInfo p{
+    margin-top: 3.5vw;
+    margin-left: 1vw;
+}
